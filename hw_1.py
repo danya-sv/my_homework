@@ -52,4 +52,4 @@ for i in create_students():
     i.average_rating()
     i.introduce_myself()
 
-
+# hello
