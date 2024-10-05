@@ -20,14 +20,14 @@ class Square(Figure):
 
 class Rectangle(Figure):
     def __init__(self, length, width):
-        self.__lenght = length
+        self.__length = length
         self.__wight = width
 
     def calculate_area(self):
-        return self.__lenght * self.__wight
+        return self.__length * self.__wight
 
     def info(self):
-        return f'Rectangle Lenght: {self.__lenght}, Wight: {self.__wight}, Area: {self.calculate_area()}'
+        return f'Rectangle Length: {self.__length}{self.unit}, Wight: {self.__wight}{self.unit}, Area: {self.calculate_area()}{self.unit}'
 
 
 figures = [
