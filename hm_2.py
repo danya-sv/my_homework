@@ -29,7 +29,6 @@ class Rectangle(Figure):
     def info(self):
         return f'Rectangle Length: {self.__length}{self.unit}, Wight: {self.__wight}{self.unit}, Area: {self.calculate_area()}{self.unit}'
 
-
 figures = [
     Square(5),
     Square(4),
