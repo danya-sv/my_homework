@@ -207,5 +207,4 @@ def start_game():
     while not is_game_over(boss, heroes_list):
         play_round(boss, heroes_list)
 
-
 start_game()
