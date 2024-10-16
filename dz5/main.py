@@ -1,4 +1,4 @@
-from logic import play_game
+from dz5.logic import play_game
 from decouple import config
 
 if __name__ == "__main__":
