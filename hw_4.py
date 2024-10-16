@@ -201,6 +201,7 @@ def start_game():
     assistant = Medic(name='Junior', health=300, damage=5, heal_points=5)
     witcher = Witcher(name='Geralt', health=150)
     hacker = Hacker(name='Anonymous', health=150, damage=10)
+
     heroes_list = [warrior_1, doc, warrior_2, magic, berserk, assistant, witcher, hacker]
     show_statistics(boss, heroes_list)
 
