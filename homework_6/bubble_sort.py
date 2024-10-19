@@ -10,4 +10,4 @@ def bubble_sort(unsorted_list):
 
 my_list = [64, 34, 25, 12, 0, 22, 11, 90, 1000]
 sorted_list = bubble_sort(my_list)
-print("Отсортированный список:", sorted_list)
+print("Отсортированный список :", sorted_list)

@@ -16,7 +16,7 @@ def binary_search(element, sorted_list):
             last = middle - 1
 
     if result_ok:
-        print("Элемент найден. Индекс:", pos)
+        print("Элемент найден. Индекс :", pos)
     else:
         print("Элемент не найден")
 
